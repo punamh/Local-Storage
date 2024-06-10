@@ -90,5 +90,6 @@ let user = [
   function addTocart(ele){
     cartData.push(ele )
     localStorage.setItem("cart-data",JSON.stringify(cartData))
+    
   }
   
